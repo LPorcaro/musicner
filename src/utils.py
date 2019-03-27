@@ -12,7 +12,7 @@ def import_config(conf_name):
     Load YAML configuration file
     """
     with open("../etc/config.yaml", 'r') as ymlfile:
-        cfg = yaml.load(ymlfile)
+        cfg = yaml.safe_load(ymlfile)
 
     cfg_sect = cfg[conf_name]
     return cfg_sect
