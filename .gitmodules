@@ -1,3 +1,0 @@
-[submodule "src/twitter_nlp"]
-	path = src/twitter_nlp
-	url = https://github.com/aritter/twitter_nlp.git
