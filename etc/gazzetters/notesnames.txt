@@ -1,0 +1,17 @@
+C
+C#
+Cb
+D
+D#
+Eb
+E
+F
+F#
+Gb
+G
+A
+A#
+Bb
+B
+flat
+sharp

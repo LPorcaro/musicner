@@ -1,0 +1,23 @@
+
+twitter_api:
+    consumer_key: 'YOUR-CONSUMER-KEY'
+    consumer_secret: 'YOUR-CONSUMER-SECRET'
+    access_token: 'YOUR-ACCESS-TOKEN'
+    access_secret: 'YOUR-ACCESS-SECRET'
+    outfile_ent: '%s_entities.csv'
+    outfile_info: '%s_summary.csv'
+    outfile_text: '%s_text_tkn.txt'
+
+features:
+    FIRST_NAMES_GAZ: '../etc/gazzetters/firstnames.txt'
+    LAST_NAMES_GAZ: '../etc/gazzetters/lastnames.txt'
+    CONTR_TYPES_GAZ: '../etc/gazzetters/contributortypes.txt'
+    INTRUMENT_TYPES_GAZ: '../etc/gazzetters/instrumenttypes.txt'
+    WORK_TYPES_GAZ: '../etc/gazzetters/worktypes.txt'
+    NOTES_GAZ: '../etc/gazzetters/notesnames.txt'
+    MODES_GAZ: '../etc/gazzetters/modestypes.txt'
+    OPUS_GAZ: '../etc/gazzetters/opustypes.txt'
+    NUMBER_GAZ: '../etc/gazzetters/numbertypes.txt'
+
+matcher:
+    stopwords: '../etc/stopwords.txt'

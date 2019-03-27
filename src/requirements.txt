@@ -1,0 +1,6 @@
+python-twitter==3.4.2
+tqdm==4.26.0
+backports.csv==1.0.6
+PyYAML==3.13
+python-dateutil==2.7.3
+python-Levenshtein==0.12.0
