@@ -1,2 +1,9 @@
 results/*
 src/*.pyc
+# exclude everything
+data/schedule/*
+data/ugc/*
+
+# exception to the rule
+!data/ugc/.gitkeep 
+!data/schedule/.gitkeep
