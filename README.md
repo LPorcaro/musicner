@@ -34,6 +34,6 @@ To extract the required features from the data, run:
 
 `python extract_features.py -i ../path/to/INPUTFILE_summary.csv -e ../path/to/INPUTFILE_entities.csv -o ../path/to/OUTPUTFILE_WEKA.csv -n ../path/to/OUTPUTFILE_biLSTM_CRF.csv`
 
-It extracts several features from the input tweets for performing experiments with Neural Networks and Machine Learning models. It creates two output files, one which can be used as input in WEKA, and one which can be used as input in BiLSTM-CNN-CRF architecture for sequence tagging implementation https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf
+It extracts several features from the input tweets for performing the experiments. It creates two output files, one which can be used as input in WEKA, and one which can be used as input in BiLSTM-CNN-CRF architecture for sequence tagging implementation https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf
 
 
