@@ -21,7 +21,7 @@ class ExtractFeatures(object):
     Usage:
     python extract_features.py
     -i ../path/to/INPUTFILE_summary.csv
-    -e ../path/to/INPUTFILE_entities.csv.csv
+    -e ../path/to/INPUTFILE_entities.csv
     -o ../path/to/OUTPUTFILE_WEKA.csv
     -n ../path/to/OUTPUTFILE_NeuralNetworks.csv
     """
