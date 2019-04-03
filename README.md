@@ -27,7 +27,7 @@ To pre-process the data, run:
 It will read the tweet IDs and related annotations from the input file, and create the following output files
 1) **INPUTFILE_entities.csv**: list of entities annotated
 2) **INPUTFILE_summary.csv**: tweets summary information (creation date, raw text, etc)
-3) **INPUTFILE__text_tkn.txt**: tweet raw texts tokenized
+3) **INPUTFILE_text_tkn.txt**: tweet raw texts tokenized
 
 #### Extract features:
 To extract the required features from the data, run:
