@@ -5,8 +5,7 @@ We present a novel method for detecting musical entities from user-generated con
 This repository contains code to reproduce the results of our [arXiv paper](https://arxiv.org/abs/1904.00648).
 
 #### Reference:
-```
-Lorenzo Porcaro, Horacio Saggion (2019). Recognizing Musical Entities in User-generated Content. Paper presented at the International Conference on Computational Linguistics and Intelligent Text Processing (CICLing) 2019, University of La Rochelle, La Rochelle, 7-13 April.
-```
+> Lorenzo Porcaro, Horacio Saggion (2019). Recognizing Musical Entities in User-generated Content. Paper presented at the International Conference on Computational Linguistics and Intelligent Text Processing (CICLing) 2019, University of La Rochelle, La Rochelle, 7-13 April.
+
 
 ## Reproduce our results
