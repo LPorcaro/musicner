@@ -18,3 +18,13 @@ Update the file `etc/config.yaml`, insert your consumer key, consumer secret, ac
 
 #### Import data:
 To receive the data for reproducing the experiment, please contact `lorenzo.porcaro at gmail.com`. Once received, go to the data [README](https://github.com/LPorcaro/musicner/tree/master/data) page for more info 
+
+#### Pre-process data:
+To pre-process the data, run:
+
+`python hydrate_tweet.py -i ../path/to/input/file.json`
+
+It will read the tweet IDs and related annotations from the input file, and create the following output files
+1) INPUTFILE_entities.csv: file with information about entities annotated
+2) INPUTFILE_summary.csv: file with information about tweets
+3) INPUTFILE__text_tkn.txt: file with tweet texts tokenized
