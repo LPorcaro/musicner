@@ -25,6 +25,15 @@ To pre-process the data, run:
 `python hydrate_tweet.py -i ../path/to/input/file.json`
 
 It will read the tweet IDs and related annotations from the input file, and create the following output files
-1) INPUTFILE_entities.csv: file with information about entities annotated
-2) INPUTFILE_summary.csv: file with information about tweets
-3) INPUTFILE__text_tkn.txt: file with tweet texts tokenized
+1) **INPUTFILE_entities.csv**: file with list of entities annotated
+2) **INPUTFILE_summary.csv**: file with tweets summary information (creation date, raw text, etc)
+3) **INPUTFILE__text_tkn.txt**: file with tweet raw texts tokenized
+
+#### Extract Features:
+To extract the required features from the data, run:
+
+`python extract_features.py -i ../path/to/INPUTFILE_summary.csv -e ../path/to/INPUTFILE_entities.csv -o ../path/to/OUTPUTFILE_WEKA.csv`
+
+It extracts several features from the input tweets for performing experiments with Neural Networks and Machine Learning models. It creates two output files, one which can be used as input in WEKA, and one which can be used as input in BiLSTM-CNN-CRF architecture for sequence tagging implementation https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf
+
+
