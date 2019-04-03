@@ -9,3 +9,12 @@ This repository contains code to reproduce the results of our [arXiv paper](http
 
 
 ## Reproduce our results
+
+#### Installation:
+Create a python 2.7 (sorry!) virtual environment and install dependencies `pip install -r src/requirements.txt`
+
+#### Update config file:
+Update the file `etc/config.yaml`, insert your consumer key, consumer secret, access token, access secret from the Twitter API. More info about the API: https://developer.twitter.com/
+
+#### Import data:
+To receive the data for reproducing the experiment, please contact `lorenzo.porcaro at gmail.com`. Once received, go to the data [README](https://github.com/LPorcaro/musicner/tree/master/data) page for more info 
