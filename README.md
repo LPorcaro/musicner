@@ -29,7 +29,7 @@ It will read the tweet IDs and related annotations from the input file, and crea
 2) **INPUTFILE_summary.csv**: tweets summary information (creation date, raw text, etc)
 3) **INPUTFILE__text_tkn.txt**: tweet raw texts tokenized
 
-#### Extract Features:
+#### Extract features:
 To extract the required features from the data, run:
 
 `python extract_features.py -i ../path/to/INPUTFILE_summary.csv -e ../path/to/INPUTFILE_entities.csv -o ../path/to/OUTPUTFILE_WEKA.csv -n ../path/to/OUTPUTFILE_biLSTM_CRF.csv`
