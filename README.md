@@ -7,20 +7,6 @@ This repository contains code to reproduce the results of our [arXiv paper](http
 #### Reference:
 > Lorenzo Porcaro, Horacio Saggion (2019). Recognizing Musical Entities in User-generated Content. Paper presented at the International Conference on Computational Linguistics and Intelligent Text Processing (CICLing) 2019, University of La Rochelle, La Rochelle, 7-13 April.
 
-
-
-<p align="center">
-    <img src="img/img2.jpg">
-    <i>Overview of the Named Entity Recognition System proposed</i>
-</p>
-
-<p align="center">
-  <img src="img/img1.jpg">  
-  <i>Example of the workflow for recognizing entities in user-generated content using the information from the radio schedule</i>
-</p>
-
-
-
 ## Reproduce our results
 
 #### Installation:
