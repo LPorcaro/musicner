@@ -5,13 +5,13 @@ We present a novel method for detecting musical entities from user-generated con
 This repository contains code to reproduce the results of our [arXiv paper](https://arxiv.org/abs/1904.00648).
 
 <p align="center">
-    <i>Overview of the Named Entity Recognition System proposed</i>
     <img src="img/img2.jpg">
+    <i>Overview of the Named Entity Recognition System proposed</i>
 </p>
 
 <p align="center">
+  <img src="img/img1.jpg">  
   <i>Example of the workflow for recognizing entities in user-generated content using the information from the radio schedule</i>
-  <img src="img/img1.jpg">
 </p>
 
 #### Reference:
