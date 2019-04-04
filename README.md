@@ -53,8 +53,8 @@ To run the matching against the schedule, run
 
 It searches for matches between entities annotated in the schedule and  user-generated tweets. It writes the results in a text file in CoNLL format. The input parameters are the input summary files and the thresholds:
 - time_tsl (int): time-distance threshold (in seconds) between schedule tweet and user-generated tweet
-- work_tsl (float): string similarity thresholds for Musical Work entities
-- contr_tsl (float): string similarity thresholds for Contributor entities
+- work_tsl (float): string similarity threshold for Musical Work entities
+- contr_tsl (float): string similarity threshold for Contributor entities
 
 The output file is written in `results/schedule_matcher_%s_%s_%s.txt`, where the %s in the file path are the values used for the thresholds. 
 
