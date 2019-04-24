@@ -1,2 +1,2 @@
 # Data requirements
-Work in progress...
+Contact lorenzo.porcaro at gmail.com for more information
